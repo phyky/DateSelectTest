@@ -26,3 +26,4 @@
 
 - SHOW_mm,            //只能选择分
     
+![image](https://github.com/phyky/DateSelectTest/blob/master/date.gif)
