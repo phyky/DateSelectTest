@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3841483E1CACB65300DCDBFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3841483D1CACB65300DCDBFE /* main.m */; };
+		384148411CACB65300DCDBFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 384148401CACB65300DCDBFE /* AppDelegate.m */; };
+		384148441CACB65300DCDBFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 384148431CACB65300DCDBFE /* ViewController.m */; };
+		384148471CACB65300DCDBFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 384148451CACB65300DCDBFE /* Main.storyboard */; };
+		384148491CACB65300DCDBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384148481CACB65300DCDBFE /* Assets.xcassets */; };
+		3841484C1CACB65300DCDBFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3841484A1CACB65300DCDBFE /* LaunchScreen.storyboard */; };
+		384148571CACB65300DCDBFE /* DateSelectTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 384148561CACB65300DCDBFE /* DateSelectTestTests.m */; };
+		384148621CACB65300DCDBFE /* DateSelectTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 384148611CACB65300DCDBFE /* DateSelectTestUITests.m */; };
+		384148721CACB71100DCDBFE /* CTDateSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 384148711CACB71100DCDBFE /* CTDateSelectorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		384148531CACB65300DCDBFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 384148311CACB65200DCDBFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 384148381CACB65300DCDBFE;
+			remoteInfo = DateSelectTest;
+		};
+		3841485E1CACB65300DCDBFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 384148311CACB65200DCDBFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 384148381CACB65300DCDBFE;
+			remoteInfo = DateSelectTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		384148391CACB65300DCDBFE /* DateSelectTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateSelectTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3841483D1CACB65300DCDBFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3841483F1CACB65300DCDBFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		384148401CACB65300DCDBFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		384148421CACB65300DCDBFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		384148431CACB65300DCDBFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		384148461CACB65300DCDBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		384148481CACB65300DCDBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3841484B1CACB65300DCDBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3841484D1CACB65300DCDBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		384148521CACB65300DCDBFE /* DateSelectTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateSelectTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		384148561CACB65300DCDBFE /* DateSelectTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateSelectTestTests.m; sourceTree = "<group>"; };
+		384148581CACB65300DCDBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3841485D1CACB65300DCDBFE /* DateSelectTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateSelectTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		384148611CACB65300DCDBFE /* DateSelectTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateSelectTestUITests.m; sourceTree = "<group>"; };
+		384148631CACB65300DCDBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		384148701CACB71100DCDBFE /* CTDateSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDateSelectorView.h; sourceTree = "<group>"; };
+		384148711CACB71100DCDBFE /* CTDateSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDateSelectorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		384148361CACB65300DCDBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3841484F1CACB65300DCDBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3841485A1CACB65300DCDBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		384148301CACB65200DCDBFE = {
+			isa = PBXGroup;
+			children = (
+				3841483B1CACB65300DCDBFE /* DateSelectTest */,
+				384148551CACB65300DCDBFE /* DateSelectTestTests */,
+				384148601CACB65300DCDBFE /* DateSelectTestUITests */,
+				3841483A1CACB65300DCDBFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3841483A1CACB65300DCDBFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				384148391CACB65300DCDBFE /* DateSelectTest.app */,
+				384148521CACB65300DCDBFE /* DateSelectTestTests.xctest */,
+				3841485D1CACB65300DCDBFE /* DateSelectTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3841483B1CACB65300DCDBFE /* DateSelectTest */ = {
+			isa = PBXGroup;
+			children = (
+				3841483F1CACB65300DCDBFE /* AppDelegate.h */,
+				384148401CACB65300DCDBFE /* AppDelegate.m */,
+				384148421CACB65300DCDBFE /* ViewController.h */,
+				384148431CACB65300DCDBFE /* ViewController.m */,
+				3841486F1CACB71100DCDBFE /* CTDateSelectorView */,
+				384148451CACB65300DCDBFE /* Main.storyboard */,
+				384148481CACB65300DCDBFE /* Assets.xcassets */,
+				3841484A1CACB65300DCDBFE /* LaunchScreen.storyboard */,
+				3841484D1CACB65300DCDBFE /* Info.plist */,
+				3841483C1CACB65300DCDBFE /* Supporting Files */,
+			);
+			path = DateSelectTest;
+			sourceTree = "<group>";
+		};
+		3841483C1CACB65300DCDBFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3841483D1CACB65300DCDBFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		384148551CACB65300DCDBFE /* DateSelectTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				384148561CACB65300DCDBFE /* DateSelectTestTests.m */,
+				384148581CACB65300DCDBFE /* Info.plist */,
+			);
+			path = DateSelectTestTests;
+			sourceTree = "<group>";
+		};
+		384148601CACB65300DCDBFE /* DateSelectTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				384148611CACB65300DCDBFE /* DateSelectTestUITests.m */,
+				384148631CACB65300DCDBFE /* Info.plist */,
+			);
+			path = DateSelectTestUITests;
+			sourceTree = "<group>";
+		};
+		3841486F1CACB71100DCDBFE /* CTDateSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				384148701CACB71100DCDBFE /* CTDateSelectorView.h */,
+				384148711CACB71100DCDBFE /* CTDateSelectorView.m */,
+			);
+			path = CTDateSelectorView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		384148381CACB65300DCDBFE /* DateSelectTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 384148661CACB65300DCDBFE /* Build configuration list for PBXNativeTarget "DateSelectTest" */;
+			buildPhases = (
+				384148351CACB65300DCDBFE /* Sources */,
+				384148361CACB65300DCDBFE /* Frameworks */,
+				384148371CACB65300DCDBFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateSelectTest;
+			productName = DateSelectTest;
+			productReference = 384148391CACB65300DCDBFE /* DateSelectTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		384148511CACB65300DCDBFE /* DateSelectTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 384148691CACB65300DCDBFE /* Build configuration list for PBXNativeTarget "DateSelectTestTests" */;
+			buildPhases = (
+				3841484E1CACB65300DCDBFE /* Sources */,
+				3841484F1CACB65300DCDBFE /* Frameworks */,
+				384148501CACB65300DCDBFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				384148541CACB65300DCDBFE /* PBXTargetDependency */,
+			);
+			name = DateSelectTestTests;
+			productName = DateSelectTestTests;
+			productReference = 384148521CACB65300DCDBFE /* DateSelectTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3841485C1CACB65300DCDBFE /* DateSelectTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3841486C1CACB65300DCDBFE /* Build configuration list for PBXNativeTarget "DateSelectTestUITests" */;
+			buildPhases = (
+				384148591CACB65300DCDBFE /* Sources */,
+				3841485A1CACB65300DCDBFE /* Frameworks */,
+				3841485B1CACB65300DCDBFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3841485F1CACB65300DCDBFE /* PBXTargetDependency */,
+			);
+			name = DateSelectTestUITests;
+			productName = DateSelectTestUITests;
+			productReference = 3841485D1CACB65300DCDBFE /* DateSelectTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		384148311CACB65200DCDBFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cattsoft;
+				TargetAttributes = {
+					384148381CACB65300DCDBFE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					384148511CACB65300DCDBFE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 384148381CACB65300DCDBFE;
+					};
+					3841485C1CACB65300DCDBFE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 384148381CACB65300DCDBFE;
+					};
+				};
+			};
+			buildConfigurationList = 384148341CACB65200DCDBFE /* Build configuration list for PBXProject "DateSelectTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 384148301CACB65200DCDBFE;
+			productRefGroup = 3841483A1CACB65300DCDBFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				384148381CACB65300DCDBFE /* DateSelectTest */,
+				384148511CACB65300DCDBFE /* DateSelectTestTests */,
+				3841485C1CACB65300DCDBFE /* DateSelectTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		384148371CACB65300DCDBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3841484C1CACB65300DCDBFE /* LaunchScreen.storyboard in Resources */,
+				384148491CACB65300DCDBFE /* Assets.xcassets in Resources */,
+				384148471CACB65300DCDBFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384148501CACB65300DCDBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3841485B1CACB65300DCDBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		384148351CACB65300DCDBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384148721CACB71100DCDBFE /* CTDateSelectorView.m in Sources */,
+				384148441CACB65300DCDBFE /* ViewController.m in Sources */,
+				384148411CACB65300DCDBFE /* AppDelegate.m in Sources */,
+				3841483E1CACB65300DCDBFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3841484E1CACB65300DCDBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384148571CACB65300DCDBFE /* DateSelectTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384148591CACB65300DCDBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384148621CACB65300DCDBFE /* DateSelectTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		384148541CACB65300DCDBFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 384148381CACB65300DCDBFE /* DateSelectTest */;
+			targetProxy = 384148531CACB65300DCDBFE /* PBXContainerItemProxy */;
+		};
+		3841485F1CACB65300DCDBFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 384148381CACB65300DCDBFE /* DateSelectTest */;
+			targetProxy = 3841485E1CACB65300DCDBFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		384148451CACB65300DCDBFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				384148461CACB65300DCDBFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3841484A1CACB65300DCDBFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3841484B1CACB65300DCDBFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		384148641CACB65300DCDBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		384148651CACB65300DCDBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		384148671CACB65300DCDBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DateSelectTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cattsoft.DateSelectTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		384148681CACB65300DCDBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DateSelectTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cattsoft.DateSelectTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3841486A1CACB65300DCDBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DateSelectTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cattsoft.DateSelectTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateSelectTest.app/DateSelectTest";
+			};
+			name = Debug;
+		};
+		3841486B1CACB65300DCDBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DateSelectTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cattsoft.DateSelectTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateSelectTest.app/DateSelectTest";
+			};
+			name = Release;
+		};
+		3841486D1CACB65300DCDBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DateSelectTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cattsoft.DateSelectTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DateSelectTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3841486E1CACB65300DCDBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DateSelectTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cattsoft.DateSelectTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DateSelectTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		384148341CACB65200DCDBFE /* Build configuration list for PBXProject "DateSelectTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				384148641CACB65300DCDBFE /* Debug */,
+				384148651CACB65300DCDBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		384148661CACB65300DCDBFE /* Build configuration list for PBXNativeTarget "DateSelectTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				384148671CACB65300DCDBFE /* Debug */,
+				384148681CACB65300DCDBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		384148691CACB65300DCDBFE /* Build configuration list for PBXNativeTarget "DateSelectTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3841486A1CACB65300DCDBFE /* Debug */,
+				3841486B1CACB65300DCDBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3841486C1CACB65300DCDBFE /* Build configuration list for PBXNativeTarget "DateSelectTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3841486D1CACB65300DCDBFE /* Debug */,
+				3841486E1CACB65300DCDBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 384148311CACB65200DCDBFE /* Project object */;
+}
